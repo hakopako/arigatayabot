@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# Set Environment Variables
+export HUBOT_IRC_NICK="BOT_NAME"
+export HUBOT_IRC_USERNAME="USER_NAME"↲
+export HUBOT_IRC_REALNAME="REAL_NAME"↲
+export HUBOT_IRC_SERVER="SERVER"
+export HUBOT_IRC_ROOMS="#ROOM_NAME"
+export HUBOT_IRC_SEND_NOTICE_MODE="true" # 全発言をNotice
+
+forever start -c coffee node_modules/hubot/bin/hubot -a irc
+
