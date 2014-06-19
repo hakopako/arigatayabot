@@ -23,7 +23,8 @@
     "cron": "*",
     "pm2": "~0.7.8",
     "coffee-script": "~1.7.1",
-    "xmljson": "~0.2.0"
+    "xmljson": "~0.2.0",
+    "request": "~2.36.0"
   },
   "engines": {
     "node": "0.6.x",
